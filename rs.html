@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIKIROU Fawase - Développeur Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+            animation: slideIn 1s ease-out;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .bio, .portfolio, .contact {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #35424a;
+            animation: slideIn 1s ease-out;
+        }
+        .portfolio a, .contact a {
+            color: #35424a;
+            text-decoration: none;
+        }
+        .portfolio a:hover, .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            animation: slideIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIKIROU Fawase</h1>
+        <p>Développeur Web | Junior Planificateur et Suivi-Évaluateur</p>
+    </header>
+
+    <div class="container">
+        <section class="bio">
+            <h2>À propos de moi</h2>
+            <p>Je suis un junior planificateur et suivi-évaluateur ayant reçu ma formation à l'École Nationale de Statistique, de Planification et de Démographie (ENSPD) à l'Université de Parakou. Passionné par le monde numérique, je me spécialise dans le développement web et l'analyse de données.</p>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Actuellement, je travaille sur un site web en cours de développement. Voici quelques-uns de mes projets :</p>
+            <ul>
+                <li><a href="https://example.com/project1" target="_blank">Projet 1</a> - Description courte du projet 1.</li>
+                <li><a href="https://example.com/project2" target="_blank">Projet 2</a> - Description courte du projet 2.</li>
+                <li><a href="https://example.com/project3" target="_blank">Projet 3</a> - Description courte du projet 3.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via :</p>
+            <ul>
+                <li>Email: <a href="mailto:votreemail@example.com">votreemail@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/votreprofil" target="_blank">Mon LinkedIn</a></li>
+                <li>GitHub: <a href="https://github.com/votreprofil" target="_blank">Mon GitHub</a></li>
+                <li>Twitter: <a href="https://twitter.com/votreprofil" target="_blank">Mon Twitter</a></li>
+                <li>Portfolio: <a href="https://votreportfolio.com" target="_blank">Mon Portfolio</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SIKIROU Fawase. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
